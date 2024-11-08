@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RESUME</title>
+</head>
+<body>
+    <h1>Resume Generator</h1>
+    <form id="Resumeform">
+        <fieldset>
+            <legend>
+                Personal Information
+        </legend>
+        <label for="name">NAME: </label>
+        <input type="text" id="name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="phone">Phone no:</label>
+        <input type="tel" id="phone" name="phone" required><br>
+
+    </fieldset>
+    <fieldset>
+        <legend>Experience</legend>
+        <label for="Experience">Experience:</label>
+        <textarea name="Experience" id="Experience" rows="4" required>
+        </textarea><br>
+
+    </fieldset>
+    <fieldset>
+        <legend>Skills</legend>
+        <label for="skills">Experience</label>
+        <textarea name="skills" id="skills" rows="4" required></textarea><br>
+        <button type="submit">Generate Resume</button>
+    </fieldset>
+
+
+    </form>
+</body>
+</html>
